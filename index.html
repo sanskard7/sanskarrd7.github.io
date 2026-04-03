@@ -3,56 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sanskar Dongare | Portfolio</title>
+<title>Sanskar | GOD Portfolio</title>
 <link rel="stylesheet" href="style.css">
 <script defer src="script.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<nav>
-  <h2>Sanskar</h2>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<header>
-  <h1>Hello, I'm Sanskar 👋</h1>
-  <p>Future Software Engineer | Developer</p>
+<header class="navbar">
+  <div class="logo">Sanskar</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section id="about">
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>I am <span id="typing"></span></h1>
+    <p>Building modern, scalable and aesthetic web experiences</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </div>
+</section>
+
+<section id="about" class="section">
   <h2>About Me</h2>
-  <p>
-    I am a passionate Information Technology student with strong skills in Python, C, C++, Java, 
-    and Mobile App Development. I love building creative projects and solving real-world problems.
-  </p>
+  <p>Passionate IT student skilled in Python, Java, C++, and App Development. I build real-world projects and modern UI.</p>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skill">
-    <p>Python</p><div class="bar"><span style="width:80%"></span></div>
-  </div>
-  <div class="skill">
-    <p>Java</p><div class="bar"><span style="width:70%"></span></div>
-  </div>
-  <div class="skill">
-    <p>C/C++</p><div class="bar"><span style="width:75%"></span></div>
+<section id="projects" class="section dark">
+  <h2>Projects</h2>
+  <div class="cards">
+    <div class="card">Portfolio Website</div>
+    <div class="card">Mobile App</div>
+    <div class="card">Python Project</div>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="section">
   <h2>Contact</h2>
   <p>Email: sanskardongare7@gmail.com</p>
-  <p>Phone: 9529570992</p>
 </section>
 
-<footer>
-  <p>© 2026 Sanskar Dongare</p>
-</footer>
+<footer>© 2026 Sanskar</footer>
 
 </body>
 </html>
